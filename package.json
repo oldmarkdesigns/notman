@@ -4,7 +4,7 @@
   "title": "Noteman",
   "description": "Fast, local Markdown note-taking in Raycast",
   "icon": "noteman-icon.png",
-  "author": "oldmarkdesigns",
+  "author": "samuel_oldmark_se",
   "categories": [
     "Productivity"
   ],
@@ -50,7 +50,8 @@
     "build": "ray build -e dist",
     "dev": "ray develop",
     "lint": "ray lint",
-    "fix-lint": "ray lint --fix"
+    "fix-lint": "ray lint --fix",
+    "publish": "ray publish"
   },
   "dependencies": {
     "@raycast/api": "^1.104.8"
